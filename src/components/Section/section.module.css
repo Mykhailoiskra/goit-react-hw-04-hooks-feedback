@@ -1,0 +1,13 @@
+.section {
+  border: 1px solid black;
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.heading {
+  color: green;
+  font-size: 36px;
+  margin-bottom: 0;
+}

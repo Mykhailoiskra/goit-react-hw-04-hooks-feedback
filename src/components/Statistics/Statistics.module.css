@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+}
+
+.statsWrapper {
+  width: calc((100% - 60px) / 3);
+  outline: 1px solid red;
+  margin: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.good {
+  background-color: green;
+}
+
+.neutral {
+  background-color: yellow;
+}
+
+.bad {
+  background-color: red;
+}
+
+.statsTag {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.statsNumber {
+  font-size: 36px;
+}
+
+.summaryWrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0;
+}
